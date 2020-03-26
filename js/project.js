@@ -22,6 +22,9 @@ function morefunction(cur) {
     document.getElementById(more).style.setProperty("visibility", "hidden");
     document.getElementById(collapse).style.setProperty("visibility", "visible");
     document.getElementById(buy).style.setProperty("visibility", "visible");
+    document.getElementById(buy).style.setProperty("transition-property", "all");
+    document.getElementById(buy).style.setProperty("transition-delay", "800ms");
+
 
 
 }
@@ -46,7 +49,9 @@ function collapsefunction(cur) {
     document.getElementById(description).style.setProperty("margin", "1vh auto");
     document.getElementById(more).style.setProperty("visibility", "visible");
     document.getElementById(collapse).style.setProperty("visibility", "hidden");
+    document.getElementById(buy).style.setProperty("transition-property", "none");
     document.getElementById(buy).style.setProperty("visibility", "hidden");
+
 }
 
 function search(cur) {
