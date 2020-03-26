@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: papyrus;
+    background-color: rgba(21, 7, 26, 0.856);
+    color: rgb(231, 232, 250);
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: rgba(214, 194, 210, 0.733);
+    text-align: center;
+    z-index: 10;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    font-size: 6vh;
+    padding-top: 1vh;
+    border-top: 2px solid black;
+}
+
+.navbar a {
+    display: inline-block;
+    width: 20vw;
+    min-height: 3.5vh;
+    margin: 0px 6vw 1vh;
+}
+
+.navbar a:first-child {
+    margin-left: 3vw;
+}
+
+.cover {
+    z-index: -1;
+    position: absolute;
+    display: block;
+    top: 0px;
+    border: 1px solid black;
+    width: 95vw;
+    margin-left: 2.5vw;
+    height: 24vh;
+    margin-top: 6vh;
+    background-color: rgba(46, 87, 105, 0.404);
+}
+
+.profilepic {
+    border: 1px solid black;
+    display: block;
+    width: 90%;
+    height: 34vh;
+    margin: 0px auto;
+    margin-top: 12vh;
+    background-color: rgba(19, 100, 121, 0.993);
+}
+
+.container {
+    display: block;
+    width: 100vw;
+    height: 42vh;
+    overflow: scroll;
+}
+
+.about {
+    margin: 6vh 5vw;
+    margin-bottom: 20%;
+    font-size: 6vw;
+    scroll-snap-type: mandatory;
+}
+
+.fa-dashcube,
+.fa-arrow-down,
+.fa-route {
+    color: rgba(36, 16, 31, 0.541);
+}
+
+.active {
+    color: rgb(43, 39, 39);
+}
+
+.p-header {
+    margin: 3vh 5vw;
+}
+
+.item {
+    margin: 4vh 5vw;
+    height: 20vh;
+    border: 2px solid rgba(158, 144, 144, 0.301);
+    overflow: hidden;
+}
+
+.p-container {
+    width: 100%;
+    height: 66vh;
+    overflow: auto;
+}
+
+.search {
+    text-align: right;
+    display: block;
+    width: 100%;
+    padding: 2vh 0px;
+    border-bottom: 2px solid rgb(245, 248, 215);
+}
+
+input {
+    border-radius: 30px;
+}
+
+.thumbnail {
+    border: 2px solid white;
+    display: block;
+    width: 40%;
+    height: 90%;
+    margin: 1.6% 2%;
+    size: 100%;
+    float: left;
+}
+
+.title {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-top: 5%;
+    font-size: 1.7em;
+}
+
+.description {
+    margin: 2vh 2vw;
+    font-size: 1.4em;
+    display: block;
+    height: 17vh;
+}
+
+.more {
+    color: aliceblue;
+    padding-right: 2vw;
+    float: right;
+}
+
+.p-container1 {
+    margin: 0vh 0px -6vh;
+    padding: 0px;
+    display: block;
+}
+
+.more {
+    position: relative;
+    bottom: 7vh;
+    right: 6vw;
+}
+
+.collapse {
+    visibility: hidden;
+    position: relative;
+    bottom: 7vh;
+    left: 50vw;
+}
+
+.c-header {
+    margin: 2vh 5vw;
+    border-bottom: 2px solid rgba(179, 173, 162, 0.733);
+}
