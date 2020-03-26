@@ -22,7 +22,7 @@ body {
     display: block;
     position: fixed;
     bottom: 0px;
-    font-size: 6vh;
+    font-size: 3vh;
     padding-top: 1vh;
     border-top: 2px solid black;
 }
@@ -30,7 +30,7 @@ body {
 .navbar a {
     display: inline-block;
     width: 20vw;
-    min-height: 3.5vh;
+    min-height: 2vh;
     margin: 0px 6vw 1vh;
 }
 
@@ -64,15 +64,12 @@ body {
 .container {
     display: block;
     width: 100vw;
-    height: 42vh;
-    overflow: scroll;
+    height: 45vh;
 }
 
 .about {
     margin: 6vh 5vw;
     margin-bottom: 20%;
-    font-size: 6vw;
-    scroll-snap-type: mandatory;
 }
 
 .fa-dashcube,
