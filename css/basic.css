@@ -203,6 +203,7 @@ label {
 }
 
 form {
+    display: none;
     position: relative;
     top: vh;
     margin: 4vh 3vw;
