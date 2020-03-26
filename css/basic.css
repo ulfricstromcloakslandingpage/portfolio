@@ -109,7 +109,10 @@ body {
 
 .fa-dashcube,
 .fa-arrow-down,
-.fa-route {
+.fa-route,
+.fa-skull,
+.fa-search-location,
+.fa-map-marker {
     color: rgba(180, 142, 91, 0.966);
 }
 
@@ -243,8 +246,13 @@ form {
     border: 2px solid white;
 }
 
-.info {
+.info section {
     margin: 4vh 2vw;
+    font-size: 3vh;
+}
+
+.info p {
+    margin: 4vh 1vw;
     font-size: 4vh;
 }
 
