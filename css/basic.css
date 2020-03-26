@@ -104,6 +104,7 @@ body {
 .about {
     margin: 6vh 5vw;
     margin-bottom: 20%;
+    font-size: 200%;
 }
 
 .fa-dashcube,
@@ -223,12 +224,15 @@ label {
 
 .btn {
     display: block;
-    width: 20vw;
+    width: 30vw;
+    text-align: center;
     margin: 4vh 1vw;
-    padding: 1vh 2vw;
+    padding: 2vh 9vw;
     border-radius: 5px;
     border: 0px;
     color: rgb(216, 200, 200);
+    position: relative;
+    left: 26vw;
     background-color: rgba(39, 6, 43, 0.534);
 }
 
@@ -247,4 +251,16 @@ form {
 a {
     text-decoration: none;
     color: rgba(5, 186, 231, 0.432);
+}
+
+.buy {
+    position: relative;
+    top: 40vh;
+    width: 20vw;
+    left: 65vw;
+    z-index: 100;
+    font-style: italic;
+    padding: 0vh 4vw;
+    background-color: rgb(11, 12, 14);
+    visibility: hidden;
 }
