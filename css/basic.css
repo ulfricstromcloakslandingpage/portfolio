@@ -5,6 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     font-family: papyrus;
     background-color: rgba(21, 7, 26, 0.856);
     color: rgb(231, 232, 250);
@@ -29,13 +30,13 @@ body {
 
 .navbar a {
     display: inline-block;
-    width: 21vw;
+    width: 20vw;
     min-height: 2vh;
     margin: 0px 6vw 1vh;
 }
 
 .navbar a:first-child {
-    margin-left: 3vw;
+    margin-left: 4vw;
 }
 
 .cover {
@@ -144,7 +145,6 @@ input {
     clear: right;
     height: 10vh;
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     line-height: 3vh;
 }
