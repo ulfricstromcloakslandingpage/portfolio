@@ -100,7 +100,11 @@ function search(cur) {
     var link = document.getElementById("link");
     var more = "";
     var text = cur.value;
+
     document.getElementById("noresult").innerHTML = "";
+    if (text == "") {
+        return;
+    }
     text = text.toLowerCase();
     if (text.match("[wW][oO][oO][dD].*") || text.match("[sS][wW][oO][rR][dD].*")) {
         text = "#title1";
@@ -118,7 +122,7 @@ function search(cur) {
         text = "#title5";
         more = "5";
     } else {
-        text = "#link";
+        text = "#top";
         document.getElementById("noresult").innerHTML = "Not Found";
     }
 

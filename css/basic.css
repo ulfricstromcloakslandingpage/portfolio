@@ -154,10 +154,6 @@ body {
     overflow: auto;
 }
 
-.search span:hover {
-    cursor: pointer;
-}
-
 .search {
     text-align: right;
     display: block;
@@ -207,10 +203,6 @@ input {
     line-height: 5vh;
 }
 
-.more:hover {
-    cursor: pointer;
-}
-
 .more {
     color: aliceblue;
     padding-right: 2vw;
@@ -219,10 +211,6 @@ input {
     position: relative;
     bottom: 2vh;
     right: 6vw;
-}
-
-.collapse:hover {
-    cursor: pointer;
 }
 
 .collapse {
@@ -242,10 +230,6 @@ label {
     display: block;
     width: 100%;
     padding-top: 5vh;
-}
-
-.btn:hover {
-    cursor: pointer;
 }
 
 .btn {
@@ -274,6 +258,10 @@ form {
     font-size: 3vh;
 }
 
+.searchlable {
+    display: inline;
+}
+
 .info h2 {
     margin: 4vh 1vw;
     font-size: 4vh;
@@ -282,10 +270,6 @@ form {
 a {
     text-decoration: none;
     color: rgba(5, 186, 231, 0.432);
-}
-
-.buy:hover {
-    cursor: pointer;
 }
 
 .buy {
@@ -303,9 +287,14 @@ a {
     visibility: hidden;
 }
 
+.info h2 {
+    font-size: 6vw;
+}
+
 .c-container {
     height: 80vh;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
@@ -331,7 +320,7 @@ a {
         font-size: 3vw;
         line-height: normal;
     }
-    .item h3 {
+    .item h2 {
         font-size: 3.3vw;
     }
     .more {
@@ -464,7 +453,7 @@ a {
         width: 90%;
         margin: 0px 0px 0px 2vw;
     }
-    .item h3 {
+    .item h2 {
         display: block;
         font-size: 170%;
         margin-left: 5vw;
@@ -507,6 +496,9 @@ a {
     form {
         height: 40vh;
         font-size: 4vh;
+    }
+    .info h2 {
+        font-size: 150%;
     }
     .btn {
         position: relative;
