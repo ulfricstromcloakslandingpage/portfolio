@@ -40,7 +40,7 @@ function morefunction(cur) {
     document.getElementById(thumbnail).style.setProperty("height", "50%");
 
     document.getElementById(thumbnail).style.setProperty("position", "relative");
-    console.log(screen.orientation.angle);
+    
     if (screen.width > 1000 && screen.orientation.angle == "90")
         document.getElementById(thumbnail).style.setProperty("left", "30%");
     else if (screen.width > 1200) {
