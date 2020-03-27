@@ -138,6 +138,10 @@ body {
     transition-timing-function: linear;
 }
 
+#link {
+    display: none;
+}
+
 .p-container {
     margin: 0px;
     padding: 0px;
@@ -148,6 +152,10 @@ body {
     display: block;
     height: 90vh;
     overflow: auto;
+}
+
+.search span:hover {
+    cursor: pointer;
 }
 
 .search {
@@ -199,6 +207,10 @@ input {
     line-height: 5vh;
 }
 
+.more:hover {
+    cursor: pointer;
+}
+
 .more {
     color: aliceblue;
     padding-right: 2vw;
@@ -207,6 +219,10 @@ input {
     position: relative;
     bottom: 2vh;
     right: 6vw;
+}
+
+.collapse:hover {
+    cursor: pointer;
 }
 
 .collapse {
@@ -226,6 +242,10 @@ label {
     display: block;
     width: 100%;
     padding-top: 5vh;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
 
 .btn {
@@ -254,7 +274,7 @@ form {
     font-size: 3vh;
 }
 
-.info p {
+.info h2 {
     margin: 4vh 1vw;
     font-size: 4vh;
 }
@@ -262,6 +282,10 @@ form {
 a {
     text-decoration: none;
     color: rgba(5, 186, 231, 0.432);
+}
+
+.buy:hover {
+    cursor: pointer;
 }
 
 .buy {
