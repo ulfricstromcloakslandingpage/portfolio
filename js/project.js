@@ -43,6 +43,9 @@ function morefunction(cur) {
     console.log(screen.orientation.angle);
     if (screen.width > 1000 && screen.orientation.angle == "90")
         document.getElementById(thumbnail).style.setProperty("left", "30%");
+    else if (screen.width > 1200) {
+        document.getElementById(thumbnail).style.setProperty("left", "30%");
+    }
 
 
     document.getElementById(title).style.setProperty("width", "100%");
