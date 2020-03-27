@@ -1,6 +1,10 @@
 function morefunction(cur) {
+    if (cur.classList == undefined) {
+        var id = cur;
+    } else {
+        var id = cur.classList[3];
+    }
 
-    var id = cur.classList[3];
     var item = "item" + id;
     var thumbnail = "thumbnail" + id;
     var title = "title" + id;
@@ -56,24 +60,35 @@ function collapsefunction(cur) {
 
 function search(cur) {
     var link = document.getElementById("link");
+    var more = "";
     var text = cur.value;
-
+    document.getElementById("noresult").innerHTML = "";
     text = text.toLowerCase();
-    if (text.match("[wW][oO][oO][dD].*")) {
+    if (text.match("[wW][oO][oO][dD].*") || text.match("[sS][wW][rR][dD].*")) {
         text = "#title1";
-    } else if (text.match("[Nn][Ii][Gg][hH][Tt].*[dDaAgG]*")) {
+        more = "1";
+    } else if (text.match("[Nn][Ii][Gg][hH][Tt].*[Bb][Ll][aA][dD][eE].*") || text.match("[Bb][Ll][aA][dD][eE].*")) {
         text = "#title2";
+        more = "2";
     } else if (text.match(".*[cC][hH][iI][lL].*")) {
         text = "#title3";
-    } else if (text.match(".*[tT][Hh][iI][eE][fF].*[Dd]*")) {
+        more = "3";
+    } else if (text.match(".*[tT][Hh][iI][eE][fF].*[Dd]*") || text.match(".*[Dd][aA][gG][gG][eE][rR].*")) {
         text = "#title4";
+        more = "4";
     } else if (text.match("[Nn]*[Ii]*[Gg]*[hH]*[Tt]*.*[Bb][oO][wW].*")) {
         text = "#title5";
+        more = "5";
     } else {
-        text = "#";
+        text = "#link";
+        document.getElementById("noresult").innerHTML = "Not Found";
+    }
+
+    if (more != "") {
+        morefunction(more);
     }
     link.setAttribute("href", text);
-    document.dispatchEvent(link.click());
+    link.click();
 }
 
 function buy() {

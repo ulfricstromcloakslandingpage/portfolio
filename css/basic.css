@@ -132,8 +132,8 @@ body {
     overflow: hidden;
     color: rgb(215, 223, 220);
     transition-property: all;
-    transition-duration: 800ms;
-    transition-timing-function: cubic-bezier(0.6, -0.2, 0.735, 0.045);
+    transition-duration: 600ms;
+    transition-timing-function: linear;
 }
 
 .p-container {
@@ -167,8 +167,8 @@ input {
     height: 100%;
     margin: 0% 4% 0% 0%;
     float: left;
-    transition-delay: 500ms;
-    transition-duration: 500ms;
+    transition-delay: 200ms;
+    transition-duration: 400ms;
 }
 
 .title {

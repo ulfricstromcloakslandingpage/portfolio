@@ -19,15 +19,16 @@
         <header class="p-header">
             <h1>PROJECTS</h1>
             <div class="search">
-                search
-                <input type="text" onchange="search(this)">
+                <span onclick="search(document.getElementById('input'))">search</span>
+                <input type="text" onchange="search(this)" id="input">
+                <span id="noresult"></span>
             </div>
         </header>
         <main class="p-container">
             <div class="p-container1">
                 <div class="buy" id="buy1" onclick="buy()">ORDER</div>
                 <div class="item" id="item1"> <img class="thumbnail" id="thumbnail1" src="image/project1.png" alt="alt">
-                    <h3 class="title" id="title1">Wooden sword</h3>
+                    <h3 class="title" id="title1">WoodenSword</h3>
                     <p class="description" id="description1">This is a toy weapon meant to be given as a gift to adopted children, although it can be used in normal combat. It has the second lowest base damage of any weapon, after the Fork. Its effectiveness can be improved through Smithing
                         and enchanting.
                     </p>
@@ -39,7 +40,7 @@
             <div class="p-container1">
                 <div class="buy " id="buy2" onclick="buy()">ORDER</div>
                 <div class="item" id="item2"> <img class="thumbnail" id="thumbnail2" src="image/project2.jpg" alt="alt">
-                    <h3 class="title" id="title2">NightingaleDagger</h3>
+                    <h3 class="title" id="title2">NightingaleBlade</h3>
                     <p class="description" id="description2">
                         The Nightingale Blade is a leveled, unique, one-handed weapon that belons to the Nightingale and former Thieves Guild Guildmaster Gallus Desidenius... ENCHANTMENT: The blade bears a unique enchantment called "Nightingale's Talon." This enchantment cannot
                         be learned or applied to other items, though one who has the Extra Effect perk in Enchanting can place Absorb Health and Absorb Stamina on another weapon to emulate the Nightingale's Talon effect..................... SMITHING:The
