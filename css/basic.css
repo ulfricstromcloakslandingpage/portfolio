@@ -125,6 +125,7 @@ body {
     padding: 0px;
     display: block;
     text-align: left;
+    overflow: hidden;
 }
 
 .item {
@@ -146,6 +147,7 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
+    overflow: hidden;
 }
 
 .p-container2 {

@@ -50,7 +50,7 @@ function morefunction(cur) {
 
     document.getElementById(title).style.setProperty("width", "100%");
     document.getElementById(title).style.setProperty("margin", "2vh 4vw");
-    document.getElementById(description).style.setProperty("overflow", "scroll");
+    document.getElementById(description).style.setProperty("overflow-y", "scroll");
     document.getElementById(description).style.setProperty("height", "16vh");
     document.getElementById(description).style.setProperty("margin", "2vh 5vw");
     document.getElementById(description).style.setProperty("width", "90%");
