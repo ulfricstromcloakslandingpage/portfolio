@@ -279,6 +279,11 @@ a {
     visibility: hidden;
 }
 
+.c-container {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
 
 /*..............................*/
 
@@ -481,11 +486,11 @@ a {
     }
     .btn {
         position: relative;
-        bottom: 10vh;
+        bottom: 15vh;
         left: 50vw;
         padding: 0%;
         width: 15vw;
-        height: 6vh;
+        height: 8vh;
         background-color: rgba(78, 57, 80, 0.774);
     }
 }

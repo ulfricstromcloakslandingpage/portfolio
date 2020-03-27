@@ -102,7 +102,7 @@ function search(cur) {
     var text = cur.value;
     document.getElementById("noresult").innerHTML = "";
     text = text.toLowerCase();
-    if (text.match("[wW][oO][oO][dD].*") || text.match("[sS][wW][rR][dD].*")) {
+    if (text.match("[wW][oO][oO][dD].*") || text.match("[sS][wW][oO][rR][dD].*")) {
         text = "#title1";
         more = "1";
     } else if (text.match("[Nn][Ii][Gg][hH][Tt].*[Bb][Ll][aA][dD][eE].*") || text.match("[Bb][Ll][aA][dD][eE].*")) {
